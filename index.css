@@ -1,0 +1,70 @@
+/* Aplicação geral */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #bba5f0; /* Fundo claro e aconchegante */
+    color: #ffffff; /* Tom de roxo suave para o texto */
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Estilo do título principal */
+h1 {
+    text-align: center;
+    color: #ffffff; /* Roxo mais profundo */
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+/* Estilo para parágrafos */
+p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+/* Lista estilizada */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: linear-gradient(to right, #a29bfe, #74b9ff);
+    color: #ffffff;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 1em;
+}
+
+/* Botão personalizado */
+input[type="button"] {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #9b4064; /* Tom de vermelho suave */
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.2em;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+input[type="button"]:hover {
+    background-color: #6d30d6; /* Tom mais profundo para hover */
+    transition: 0.3s ease;
+}
+
+/* Ajuste para dispositivos móveis */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    p, ul li {
+        font-size: 1em;
+    }
+}
+
